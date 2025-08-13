@@ -1,1 +1,8 @@
+streamlit
+python-docx
+PyPDF2
+openai
+protobuf==3.20.*
+openai
+
 
