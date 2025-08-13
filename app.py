@@ -6,7 +6,7 @@ import PyPDF2
 import os
 from openai import OpenAI
 # Set your OpenAI API key here directly
-api_key = "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"
+api_key = "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"
 client = OpenAI(api_key=api_key)
 
 
@@ -135,3 +135,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
