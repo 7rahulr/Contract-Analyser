@@ -43,7 +43,7 @@ def extract_text(file) -> str:
 
 from openai import OpenAI
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="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")
 
 def summarize(document: str) -> str:
     response = client.chat.completions.create(
@@ -135,4 +135,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
